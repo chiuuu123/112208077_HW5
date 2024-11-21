@@ -97,7 +97,7 @@ section h2 {
 }
 
 .timeline {
-  display: grid;
+  display: flex;
   flex-direction: column;
   gap: 10px;
 }
