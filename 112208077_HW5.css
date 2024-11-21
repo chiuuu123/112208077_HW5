@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeedel;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.left-panel {
+  width: 330px;
+  height: 1150px;
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-panel {
+  height: 50%;
+  background-image: url('pic/pic.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.text-content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.email {
+  color: white;
+  text-decoration: none;
+}
+
+.nccu-icon {
+  width: 270px;
+  align-self: center;
+}
+
+/* Right Panel */
+.right-panel {
+  width: 540px;
+  height: 1150px;
+  padding: 20px;
+  display: grid;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.timeline {
+  display: grid;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.year {
+  font-weight: bold;
+  width: 65px;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.homework-list ul {
+  list-style-type: none;
+}
+
+.homework-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.homework-list a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+.homework-list a:hover {
+  text-decoration: underline;
+}
+
+.music-gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.music-gallery img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.note {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+}
