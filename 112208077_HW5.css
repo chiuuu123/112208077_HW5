@@ -138,6 +138,19 @@ section h2 {
   display: flex;
   gap: 20px;
   justify-content: center;
+  text-align: center;
+}
+
+.music-gallery a {
+  display: block;
+  text-decoration: none; 
+  text-align: center;
+}
+
+.music-gallery a span {
+  display: block; 
+  margin-top: 10px; 
+  color: #000; 
 }
 
 .music-gallery img {
